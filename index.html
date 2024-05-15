@@ -38,6 +38,23 @@
       .aa {
         color: white;
       }
+      .r {
+        width: 450px;
+        float: left;
+        margin-right: 1px;
+      }
+      .v {
+        width: 450px;
+        float: right;
+        margin-left: 10px;
+        margin-top: 100px;
+      }
+      .text {
+        font-size: 30px;
+      }
+      ul {
+        list-style: none;
+      }
     </style>
   </head>
   <body style="background-color: black">
@@ -96,99 +113,118 @@
         esse rem dicta tempore laudantium labore cum.
       </p>
       <br /><br />
-      <section>
-        <section style="text-align: left">
-          <div>
-            <h1 style="color: #ff8b12">SKATE FOR BEGINNER</h1>
-            <p class="aa">
-              Lorem ipsum dolor sit, amet consectetur <br />adipisicing elit.
-              Pariatur dolores voluptas<br />
-              obcaecati quo consequuntur mollitia facilis.
-            </p>
-          </div>
-          <div>
-            <h1 style="color: #ff8b12">ADVANCE SKATER</h1>
-            <p class="aa">
-              Lorem ipsum dolor sit, amet consectetur <br />adipisicing elit.
-              Pariatur dolores voluptas<br />
-              obcaecati quo consequuntur mollitia facilis.
-            </p>
-          </div>
-        </section>
+      <section class="row">
+        flex
 
-        <section style="text-align: center">
-          <div>
-            <h1 style="color: #ff8b12">SKATE FOR BEGINNER</h1>
-            <p class="aa">
-              Lorem ipsum dolor sit, amet consectetur <br />adipisicing elit.
-              Pariatur dolores voluptas<br />
-              obcaecati quo consequuntur mollitia facilis.
-            </p>
-          </div>
-          <div>
-            <h1 style="color: #ff8b12">ADVANCE SKATER</h1>
-            <p class="aa">
-              Lorem ipsum dolor sit, amet consectetur <br />adipisicing elit.
-              Pariatur dolores voluptas<br />
-              obcaecati quo consequuntur mollitia facilis.
-            </p>
-          </div>
-        </section>
-        <section style="text-align: right">
-          <div>
-            <h1 style="color: #ff8b12">SKATE FOR BEGINNER</h1>
-            <p class="aa">
-              Lorem ipsum dolor sit, amet consectetur <br />adipisicing elit.
-              Pariatur dolores voluptas<br />
-              obcaecati quo consequuntur mollitia facilis.
-            </p>
-          </div>
-          <div>
-            <h1 style="color: #ff8b12">ADVANCE SKATER</h1>
-            <p class="aa">
-              Lorem ipsum dolor sit, amet consectetur <br />adipisicing elit.
-              Pariatur dolores voluptas<br />
-              obcaecati quo consequuntur mollitia facilis.
-            </p>
-          </div>
-        </section>
+        <div style="text-align: left">
+          <h1 style="color: #ff8b12">SKATE FOR BEGINNER</h1>
+          <p class="aa">
+            Lorem ipsum dolor sit, amet consectetur <br />adipisicing elit.
+            Pariatur dolores voluptas<br />
+            obcaecati quo consequuntur mollitia facilis.
+          </p>
+
+          <h1 style="color: #ff8b12">ADVANCE SKATER</h1>
+          <p class="aa">
+            Lorem ipsum dolor sit, amet consectetur <br />adipisicing elit.
+            Pariatur dolores voluptas<br />
+            obcaecati quo consequuntur mollitia facilis.
+          </p>
+        </div>
       </section>
-      <section>
-      <div >
-        <img src="images/img_1.jpg" alt="image">
-        <h2 class="text-primary" style="color: #ff8b12">MY BEST PERFORMANCE</h2>
-        <p style="color: white" class="text-primary">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus id
-          dignissimos nemo minus perspiciatis ullam itaque voluptas iure vero,
-          nesciunt unde odit aspernatur distinctio, maiores facere officiis.
-          Cum, esse, iusto?
-        </p>
-        <p  style="color: white">
-          Minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit
-          aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?
-        </p>
-        <ul class="ul-check primary list-unstyled mt-5">
-          <li style="color: white">Lorem ipsum dolor.</li>
-          <li style="color: white">Quod, amet. Provident.</li>
-          <li style="color: white">Quo, adipisci, quis.</li>
-          <li style="color: white">Cumque perspiciatis, blanditiis?</li>
-        </ul>
-      </div>
+
+      <section style="text-align: center">
+        <div>
+          <h1 style="color: #ff8b12">SKATE FOR BEGINNER</h1>
+          <p class="aa">
+            Lorem ipsum dolor sit, amet consectetur <br />adipisicing elit.
+            Pariatur dolores voluptas<br />
+            obcaecati quo consequuntur mollitia facilis.
+          </p>
+
+          <h1 style="color: #ff8b12">ADVANCE SKATER</h1>
+          <p class="aa">
+            Lorem ipsum dolor sit, amet consectetur <br />adipisicing elit.
+            Pariatur dolores voluptas<br />
+            obcaecati quo consequuntur mollitia facilis.
+          </p>
+        </div>
+
+        <div>
+          <h1 style="color: #ff8b12">SKATE FOR BEGINNER</h1>
+          <p class="aa">
+            Lorem ipsum dolor sit, amet consectetur <br />adipisicing elit.
+            Pariatur dolores voluptas<br />
+            obcaecati quo consequuntur mollitia facilis.
+          </p>
+        </div>
+        <div>
+          <h1 style="color: #ff8b12">ADVANCE SKATER</h1>
+          <p class="aa">
+            Lorem ipsum dolor sit, amet consectetur <br />adipisicing elit.
+            Pariatur dolores voluptas<br />
+            obcaecati quo consequuntur mollitia facilis.
+          </p>
+        </div>
       </section>
-       <br>
+
       <section>
         <div>
-          <img src="images/img_2.jpg" alt="image">
+          <img src="images/img_1.jpg" alt="image" class="r" />
+          <h2 class="text" style="color: #ff8b12">MY BEST PERFORMANCE</h2>
+          <p style="color: white" class="text">
+            Lorem ipsum dolor sit amet, consectetur<br />
+            adipisicing elit. Ducimus id dignissimos nemo<br />
+            minus perspiciatis ullam itaque voluptas iure <br />vero, nesciunt
+            unde odit aspernatur distinctio,<br />
+            maiores facere officiis. Cum, esse, iusto?
+          </p>
+          <p style="color: white" class="text">
+            Minus perspiciatis ullam itaque voluptas iure<br />
+            vero, nesciunt unde odit aspernatur distinctio,<br />
+            maiores facere officiis. Cum, esse, iusto?
+          </p>
+          <ul class="text">
+            <li style="color: white">Lorem ipsum dolor.</li>
+            <li style="color: white">Quod, amet. Provident.</li>
+            <li style="color: white">Quo, adipisci, quis.</li>
+            <li style="color: white">Cumque perspiciatis, blanditiis?</li>
+          </ul>
+        </div>
+
+        <br /><br /><br />
+        <br /><br /><br />
+        <br /><br /><br />
+        <br /><br /><br />
+        <br /><br /><br />
+        <br /><br /><br />
+        <br /><br /><br />
+        <br /><br /><br />
+        <br /><br /><br />
+        <br /><br /><br />
+        <br /><br /><br />
+        <br /><br /><br />
+        <br /><br /><br />
+        <br /><br /><br />
+        <br /><br /><br />
+        <br /><br /><br />
+
+        <br /><br /><br />
+
+        <div>
+          <img src="images/img_2.jpg" alt="image" class="v" />
           <h2 class="text-primary" style="color: #ff8b12">MY BEST MENTOR</h2>
           <p style="color: white" class="text-primary">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus id
-            dignissimos nemo minus perspiciatis ullam itaque voluptas iure vero,
-            nesciunt unde odit aspernatur distinctio, maiores facere officiis.
-            Cum, esse, iusto?
+            Lorem ipsum dolor sit amet, consectetur<br />
+            adipisicing elit. Ducimus id dignissimos nemo <br />minus
+            perspiciatis ullam itaque voluptas iure<br />
+            vero, nesciunt unde odit aspernatur distinctio,<br />
+            maiores facere officiis. Cum, esse, iusto?
           </p>
-          <p  style="color: white">
-            Minus perspiciatis ullam itaque voluptas iure vero, nesciunt unde odit
-            aspernatur distinctio, maiores facere officiis. Cum, esse, iusto?
+          <p style="color: white" class="text-primary">
+            Minus perspiciatis ullam itaque voluptas iure<br />
+            vero, nesciunt unde odit aspernatur distinctio,<br />
+            maiores facere officiis. Cum, esse, iusto?
           </p>
           <ul class="ul-check primary list-unstyled mt-5">
             <li style="color: white">Lorem ipsum dolor.</li>
@@ -198,7 +234,7 @@
           </ul>
         </div>
       </section>
-      <img src="images/hero_2.jpg" style="width: 60%; padding-left: 20%;">
+      <img src="images/hero_2.jpg" style="width: 60%; padding-left: 20%" />
     </main>
   </body>
 </html>
